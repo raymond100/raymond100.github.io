@@ -45,7 +45,7 @@ body{
 .title-text{
     width: 50vw;
     height: 5vh;
-    font-size: 0.8em;
+    font-size: 14px;
     color: #F6F8FF;
 }
 .btn-sub1{
@@ -126,7 +126,10 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-
+.content-2 .col-md-6 h6.t{
+    font-size: 10px;
+    color: #EF233C;
+}
 .content-2 .col-md-6 p{
     font-size: 12px;
 }

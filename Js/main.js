@@ -281,19 +281,22 @@ function validateEmail($email) {
   // Navigation link Scrolling
 
   $('.nav-item #home').on('click',function(){
-    $('html, body').animate({scrollTop:500},1000);
+    $('html, body').animate({scrollTop:50},1000);
   });
   $('.nav-item #features').on('click',function(){
-    $('html, body').animate({scrollTop:950},1000);
+    $('html, body').animate({scrollTop:500},1000);
+  });
+  $('.btn-sub2').on('click', function () {
+    $('html, body').animate({ scrollTop: 500 }, 1000);
   });
   $('.nav-item #pricing').on('click',function(){
-    $('html, body').animate({scrollTop:1570},1000);
+    $('html, body').animate({scrollTop:1000},1000);
   });
   $('.nav-item #services').on('click',function(){
-    $('html, body').animate({scrollTop:2050},1000);
+    $('html, body').animate({scrollTop:1200},1000);
   });
   $('.nav-item #about-us').on('click',function(){
-    $('html, body').animate({scrollTop:2620},1000);
+    $('html, body').animate({scrollTop:1300},1000);
   });
   $('.nav-item #contact-us').on('click',function(){
     $('html, body').animate({scrollTop:3120},1000);
