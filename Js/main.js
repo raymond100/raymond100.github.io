@@ -296,10 +296,10 @@ function validateEmail($email) {
     $('html, body').animate({scrollTop:1200},1000);
   });
   $('.nav-item #about-us').on('click',function(){
-    $('html, body').animate({scrollTop:1300},1000);
+    $('html, body').animate({scrollTop:1900},1000);
   });
   $('.nav-item #contact-us').on('click',function(){
-    $('html, body').animate({scrollTop:3120},1000);
+    $('html, body').animate({scrollTop:3000},1000);
   });
   
 
