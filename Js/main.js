@@ -61,8 +61,8 @@ $(document).ready(function(){
 
        if(x < scrollt){
           $('.pro-1').css("width","91%");
-          $('.pro-2').css("width","94%");
-          $('.pro-3').css("width","89%");
+          $('.pro-2').css("width","89%");
+          $('.pro-3').css("width","85%");
         } else if(y > scrollt){
           $('.pro-1,.pro-2,.pro-3').css("width","0%");
         }
@@ -293,13 +293,13 @@ function validateEmail($email) {
     $('html, body').animate({scrollTop:1000},1000);
   });
   $('.nav-item #services').on('click',function(){
-    $('html, body').animate({scrollTop:1200},1000);
+    $('html, body').animate({scrollTop:1250},1000);
   });
   $('.nav-item #about-us').on('click',function(){
     $('html, body').animate({scrollTop:1900},1000);
   });
   $('.nav-item #contact-us').on('click',function(){
-    $('html, body').animate({scrollTop:3000},1000);
+    $('html, body').animate({scrollTop:2500},1000);
   });
   
 
