@@ -241,6 +241,10 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.font-card img {
+  background-color: transparent;
+  width: 70px;
+}
 #html,
 #java {
   color: red;
